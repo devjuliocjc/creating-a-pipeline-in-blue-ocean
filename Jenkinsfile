@@ -12,7 +12,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        bat 'jenkins/scripts/test.sh'
+        bat 'C:\\DevOps\\GitRep\\creating-a-pipeline-in-blue-ocean\\jenkins\\scripts\\test.sh'
       }
     }
   }
